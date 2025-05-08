@@ -1,12 +1,13 @@
-
+import java.util.Scanner;
 public class Soluciones {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
         // Declarar variables
         int edad = 25;
         double altura = 1.75;
         String nombre = "Ana";
-        System.out.println(nombre + " tiene  una edad de " + edad + " años" + "y mide " + altura);
+        System.out.println(nombre + " tiene  una edad de " + edad + " años" + " y mide " + altura);
 
         // Suma de enteros
         int num1 = 2;
@@ -15,7 +16,21 @@ public class Soluciones {
         System.out.println(resultado);
 
         // Área Rectangulo
+        System.out.println("Introduce la base: ");
+        double base = sc.nextDouble();
+        System.out.println("Introduce la altura: ");
+        double alturaRectangulo = sc.nextDouble();
+        double area = base * alturaRectangulo;
+        System.out.println("El área del rectángulo es: " + area);
 
+        // Concatenación de string
+        String parte1 = "Hola ";
+        String parte2 = "mundo";
+
+        // 7. Longitud de cadena
+        System.out.println("Introduce una palabra:");
+        String palabra = sc.next();
+        System.out.println("Longitud: " + palabra.length());
 
 
         }
