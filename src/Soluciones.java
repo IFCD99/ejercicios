@@ -6,7 +6,7 @@ public class Soluciones {
         int edad = 25;
         double altura = 1.75;
         String nombre = "Ana";
-        System.out.println(nombre + " tiene  " + edad + " años"  );
+        System.out.println(nombre + " tiene  una edad de " + edad + " años" + "y mide " + altura);
 
         // Suma de enteros
         int num1 = 2;
