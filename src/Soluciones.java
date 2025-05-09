@@ -43,5 +43,5 @@ public class Soluciones {
             System.out.println("La cadena está vacía.");
         }
 
-        }
+    }
 }
