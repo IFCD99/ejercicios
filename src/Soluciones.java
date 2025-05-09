@@ -26,6 +26,7 @@ public class Soluciones {
         // Concatenación de string
         String parte1 = "Hola ";
         String parte2 = "mundo";
+        System.out.println(parte1 + " " + parte2);
 
         // 7. Longitud de cadena
         System.out.println("Introduce una palabra:");
