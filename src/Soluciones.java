@@ -32,6 +32,15 @@ public class Soluciones {
         String palabra = sc.next();
         System.out.println("Longitud: " + palabra.length());
 
+        // 8. Letra inicial: Muestra la primera letra de una cadena.
+        String cadena = "Hola Mundo";
+
+        if (!cadena.isEmpty()) {
+            char primeraLetra = cadena.charAt(0);
+            System.out.println("La primera letra es: " + primeraLetra);
+        } else {
+            System.out.println("La cadena está vacía.");
+        }
 
         }
 }
